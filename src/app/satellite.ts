@@ -6,10 +6,15 @@ export class Satellite {
    launchDate: string;
 
    constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
-      this.name = name;
-      this.orbitType = orbitType;
-      this.type = type;
-      this.operational = operational;
-      this.launchDate = launchDate;
+      this.name = name,
+      this.orbitType = orbitType,
+      this.type = type,
+      this.operational = operational,
+      this.launchDate = launchDate
+   }
+
+   shouldShowWarning() {
+      let truth = this.type === 'Space Debris';
+      return truth;
    }
 }
