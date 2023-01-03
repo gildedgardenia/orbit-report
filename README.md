@@ -20,10 +20,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
@@ -51,7 +47,9 @@ After running the tests, your TA will check your code for the following:
 
    a. The satellite data should be from the fetch request, rather than from
       the hard-coded starter array. (No "Weber Grill"!)
+
    b. The Satellite Counts component displays a total number of `9`.
+   
    c. The "Space Debris" cell under the "Type" column should be highlighted red. 
 
 1. That the search and sort features work.
